@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    padding: 30px 0;
+    background-color: #252B42;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.btn{
+    width: 214px;
+    height: 52px;
+    color: white;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    border: none;
+}
+.a{
+    display: flex;
+    gap: 50px;
+}
+.a h3{
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+padding-top: 15px;
+list-style: none;
+}
+.tex h1{
+font-size: 58px;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+}
+.tex{
+    width: 509px;
+    height: 422px;
+    margin-top: 173px;
+}
+.tex p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    padding: 35px 0; 
+    color: white;
+}
+.btn1{
+    width: 185px;
+    height: 52px;
+    background-color: inherit;
+    border-radius: 50px;
+}
+.btn1:hover{
+    background-color: #23A6F0;
+}
+.hero img{
+    margin-top: 93px;
+}
+main{
+    padding: 30px 0;
+    background-color: #252B42;  
+}
+.hero2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+}
+.hero2 p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #737373;
+}
+.hero2{
+    margin-top: 270px;
+    margin-bottom: 70px;
+}
+.card{
+    width: 328px;
+    height: 139px;
+    background-color: inherit;
+    border: 1px solid #F2F2F2;
+    padding: 0 27px;
+    margin-top: 39px;
+}
+.card h4{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: white;
+}
+.card h5{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+}
+.d img{
+   margin-top: 10px;
+    width: 48px;
+height: 39.53px;
+gap: 0px;
+opacity: 0px;
+}
+.card:hover{
+    background: yellowgreen;
+}
+.ota{
+   display: flex;
+  justify-content: space-around;
+flex-wrap: wrap;
+}
+.tex3{
+    text-align: center;
+    margin-top: 120px;
+}
+.tex3 h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+padding-bottom: 10px;
+}
+.tex3 p{
+
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+padding-bottom: 80px;
+}
+.card2{
+    width: 744px;
+    height: 362px;
+    background-color: white;
+    text-align: center;
+    margin: 100px auto;
+    padding: 40px;
+}
+.card2 p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #737373;
+padding: 25px 0;
+}
+.card2 h3{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+color: #252B42;
+padding-bottom: 8px;
+}
+.card3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #BDBDBD;
+    width: 210px;
+    height: 82px;
+    color: white;
+    margin-top: 60px;
+}
+.card3 img{
+    font-size: 10px;
+}
+.hero4 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+}
+.hero4 p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+}
+.ota3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.card3:hover{
+    background-color: #23A6F0;
+}
+.hero3 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+    margin-top: 240px;
+}
+.hero3 p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+}
+.card5{
+    width:508px;
+height: 243px;
+background-color: white;
+display: flex;
+padding: 50px 50px;
+gap: 30px;
+margin-top: 150px;
+}
+.tex4{
+    width: 217px;
+    height: 143px;
+}
+samp{
+    color: #23A6F0;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+}
+.tex4 p{
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+color: #737373;
+}
+.btn2{
+    width: 162px;
+    height: 52px;
+    color: white;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    border: none;
+}
+.ota4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero5{
+margin-top: 150px;
+margin-bottom: 200px;
+}
+.hero5 h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+}
+.hero5 p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+}
+.hero5 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tex5{
+    width: 602px;
+    height: 329px;
+    margin-top: 200px;
+}
+.card7{
+    background-color: white;
+    height: 500px;
+    color: white;
+}
+footer{
+    background-color: #252B42;
+    padding: 137px 200px;
+}
+footer h3{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+color: white;
+padding-bottom: 25px;
+}
+footer p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: white;
+padding-bottom: 15px;
+}
+.ota8{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
